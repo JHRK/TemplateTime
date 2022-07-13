@@ -25,3 +25,26 @@ header h1{
    color: #d12623;
    display: block;
 }
+main img{
+    padding-left: 5%;
+    width: 90%;
+    height: 500px;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+main h2{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    font-family: Inconsolata;
+    color: #262223;
+    font-size: 30px;
+}
+main p{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    color: #262223;
+    font-family: PT Sans;
+}
