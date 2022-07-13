@@ -27,33 +27,53 @@ header h1{
 }
 
 footer{
-    background-color: #a8dadc;
+    background-color: #434850;
     display: flex;
-    font-family: Inconsolata;
+    font-family: PT Sans;
     font-size: 14px;
     justify-content: space-between;
     padding-right: 30px;
     padding-left: 30px;
-    padding-top: 200px;
+    padding-top: 50px;
 }
 footer section{
-    height: 300px;
-    width: 200px;
-}
-footer section a{
-    height: 200px;
+    height: 475px;
     width: 300px;
-    background-color: #1d3557;
+}
+footer section h1{
+    color: #d12623;
+    text-shadow:2px 2px 3px 3px #f1faee;
+    font-family: Inconsolata;
+}
+footer section img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+footer section p{
+    color: #f1faee;
+}
+footer section button{
+    height: 50px;
+    width: 120px;
+    background-color: #434850;
     font-style: none;
     font-family: Inconsolata;
     text-decoration: none;
-    font-size: xx-large;
-    margin: 50px;
+    font-size: x-large;
     position: relative;
-    top: 20px;
-    border: 2px solid #f1faee;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #f1faee;
     border-radius: 0.5em;
     color: #f1faee;
+}
+footer section button:hover{
+    color: #f1faee;
+    background-color: #d12623;
+    border:1px solid #f1faee;
+    box-shadow: 0px 0px 3px 3px #d12623;
 }
 
 main img{
@@ -63,6 +83,7 @@ main img{
     padding-right: 5%;
     padding-bottom: 5%;
 }
+
 main h2{
     padding-left: 5%;
     padding-right: 5%;
@@ -72,6 +93,7 @@ main h2{
     color: #262223;
     font-size: 30px;
 }
+
 main p{
     padding-left: 5%;
     padding-right: 5%;
