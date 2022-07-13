@@ -25,3 +25,38 @@ header h1{
    color: #d12623;
    display: block;
 }
+
+footer{
+    background-color: #a8dadc;
+    display: flex;
+    font-family: Inconsolata;
+    font-size: 14px;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 200px;
+}
+footer section{
+    height: 300px;
+    width: 200px;
+}
+footer section a{
+    height: 200px;
+    width: 300px;
+    background-color: #1d3557;
+    font-style: none;
+    font-family: Inconsulata;
+    text-decoration: none;
+    font-size: xx-large;
+    margin: 50px;
+    position: relative;
+    top: 20px;
+    border: 2px solid #f1faee;
+    border-radius: 0.5em;
+    color: #f1faee;
+    
+
+}
+footer section img{
+
+}
