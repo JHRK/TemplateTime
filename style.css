@@ -45,7 +45,7 @@ footer section a{
     width: 300px;
     background-color: #1d3557;
     font-style: none;
-    font-family: Inconsulata;
+    font-family: Inconsolata;
     text-decoration: none;
     font-size: xx-large;
     margin: 50px;
@@ -54,9 +54,28 @@ footer section a{
     border: 2px solid #f1faee;
     border-radius: 0.5em;
     color: #f1faee;
-    
-
 }
-footer section img{
 
+main img{
+    padding-left: 5%;
+    width: 90%;
+    height: 500px;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+main h2{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    font-family: Inconsolata;
+    color: #262223;
+    font-size: 30px;
+}
+main p{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    color: #262223;
+    font-family: PT Sans;
 }
